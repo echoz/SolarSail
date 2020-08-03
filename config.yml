@@ -1,0 +1,19 @@
+solarsail:
+  listen: 8888
+  accounts:
+    jeremy:
+      username: jeremy
+      password: jeremypassword
+      providers:
+        cloudflare:
+          email: jeremyfoo@gmail.com
+          token: 1UM4mZ0IKctBpWXiKobLjEv7z4w0wF5OQrgSk_P4 
+      hosts:
+        narvaez.panfoo.us:
+          provider: cloudflare
+          zone: "panfoo.us"
+          domains:
+            - "narvaez.panfoo.us"
+            - "*.narvaez.panfoo.us"
+            - "plex.narvaez.panfoo.us"
+            - "*.plex.narvaez.panfoo.us"
